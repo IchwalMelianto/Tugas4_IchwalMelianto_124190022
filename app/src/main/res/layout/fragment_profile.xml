@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@color/midnightblue"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="70dp"
+            android:src="@drawable/logo"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="GAMING GEAR STORE"
+            android:textColor="@color/white"
+            android:textSize="35sp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30sp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:layout_marginBottom="50dp"
+            android:text="Gaming Gear Store adalah toko gaming yang berlokasi di Yogyakarta, Mall Ambarrukmo Plaza yang didirikan Oleh Pro Gamers di Indonesia. Kita mendedikasikan diri kita dalam menjawab Kebutuhan Gaming anda. Toko kami di supplies dengan Gaming equipment terkemuka dari berbagai negara yang telah terbukti di dunia gamers. Misi kita sangat sederhana, memajukan Industri gaming di Indonesia dengan cara memberikan gaming gear yang terbaik. Kita tidak hanya bisa menjual barang, kita mengerti apa yang kami jual, kami mereview barang gaming yang beredar sendiri dengan komunitas kami, kami mampu mengservice gaming gear anda juga, dan tentunya kita memberikan Service purna jual yang terbaik terutama dalam masalah after sales dan garansi semuanya hanya untuk menjawab kebutuhan Gaming Gear anda. Bertanyalah kepada rekan anda yang sudah berbelanja di GGS mereka pastilah mereka sudah merasakan after sales terbaik kami."/>
+
+    </LinearLayout>
+
+</ScrollView>
